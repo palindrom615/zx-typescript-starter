@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "rootDir": "./src",
+    "outDir": "./dist/" /* Specify an output folder for all emitted files. */,
+    "declaration": true,
+    "composite": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "importsNotUsedAsValues": "remove" /* Specify emit/checking behavior for imports that are only used for types. */,
+    "isolatedModules": true /* Ensure that each file can be safely transpiled without relying on other imports. */,
+    "esModuleInterop": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "allowImportingTsExtensions": true,
+    "allowJs": true,
+    "resolveJsonModule": true
+  },
+  "include": ["./src/**/*"],
+  "ts-node": {
+    "esm": true,
+    "transpileOnly": true,
+    "files": true,
+    "experimentalResolver": true
+  }
+}
